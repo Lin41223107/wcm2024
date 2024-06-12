@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,8 +142,66 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">W11 << <a href='W11.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit<br /><h1>W13</h1>
-<br />W11 << <a href='W11.html'>Previous</a> <a href='Replit.html'>Next</a> >> Replit</div>
+    <div id="tipue_search_content">問題(二) << <a href='問題(二).html'>Previous</a> <a href='W7-W8.html'>Next</a> >> W7-W8<br /><h1>問題(三)</h1>
+<span>如何用git解決Autocad的問題?</span>使用 Git 来管理 AutoCAD 项目可以帮助团队更好地协作，跟踪更改，并确保项目的版本控制。以下是如何使用 Git 解决 AutoCAD 项目中常见问题的指南。前提条件
+<ol>
+<li>安装 Git 客户端：从 <a href="https://git-scm.com/" rel="noreferrer" target="_new">Git官网</a> 下载并安装 Git 客户端。</li>
+<li>安装 AutoCAD：确保你已经安装了 AutoCAD 并了解基本的使用方法。</li>
+</ol>
+初始化 Git 仓库
+<ol>
+<li>打开 Git Bash 或者命令提示符。</li>
+<li>导航到你的 AutoCAD 项目目录：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash"><span class="hljs-built_in">cd</span> /path/to/your/autocad/project </code></div>
+</li>
+<li>初始化一个新的 Git 仓库：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git init </code></div>
+</li>
+</ol>
+添加 .gitignore 文件为了避免将不必要的文件添加到仓库中，可以创建一个 <code>.gitignore</code> 文件。在你的项目根目录下创建一个名为 <code>.gitignore</code> 的文件，并添加以下内容：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-plaintext"># AutoCAD temporary files *.ac$ *.bak *.sv$ # AutoCAD backup files *.bak *.tmp </code></div>
+添加和提交文件将项目中的文件添加到 Git 仓库，并进行初次提交：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git add . git commit -m <span class="hljs-string">"Initial commit"</span> </code></div>
+创建远程仓库（如 GitHub, GitLab 等）
+<ol>
+<li>在 GitHub 或 GitLab 上创建一个新的仓库。</li>
+<li>将远程仓库添加到本地仓库：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git remote add origin https://github.com/username/repository.git </code></div>
+</li>
+<li>推送本地仓库到远程仓库：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git push -u origin master </code></div>
+</li>
+</ol>
+团队协作
+<ol>
+<li><strong>克隆仓库</strong>：团队成员可以克隆这个仓库进行协作：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/username/repository.git </code></div>
+</li>
+<li><strong>创建分支</strong>：每个团队成员在进行更改时，最好创建一个新的分支：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git checkout -b feature-branch </code></div>
+</li>
+<li><strong>提交更改并推送</strong>：提交更改并推送到远程仓库：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git add . git commit -m <span class="hljs-string">"Description of changes"</span> git push origin feature-branch </code></div>
+</li>
+<li><strong>合并分支</strong>：通过 Pull Request 或 Merge Request 将更改合并到主分支。</li>
+</ol>
+解决冲突当多个团队成员修改同一文件时，可能会出现冲突。解决冲突的步骤如下：
+<ol>
+<li><strong>拉取最新更改</strong>：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git pull origin master </code></div>
+</li>
+<li><strong>解决冲突</strong>：打开冲突的文件，手动合并更改。</li>
+<li><strong>标记冲突已解决</strong>：
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-bash">git add &lt;conflicted-file&gt; git commit -m <span class="hljs-string">"Resolve merge conflict"</span></code></div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br />問題(二) << <a href='問題(二).html'>Previous</a> <a href='W7-W8.html'>Next</a> >> W7-W8</div>
 
     <!-- footer -->
       <div class="container">
