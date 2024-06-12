@@ -67,7 +67,44 @@
 <p><span>git push</span></p>
 <p>就可以將自己的個人子模組加入到分組倉儲</p>
 <h2>W4</h2>
-<h2>W5</h2>
+<p>有關建立網站:<span>網站指的是 Web site針對網頁瀏覽器檢視的內容加以管理，利用 Github 所提供的 Pages 功能來建立網頁進行管理。</span></p>
+<p><span>Replit靜態網站檢視:若要執行動態網站，可以在 Shell 執行 python3 main.py 或者使用 Replit 的 Run 按鍵， Shell 執行 python3 main2.py 就可以執行倉儲內的靜態網站檢視。</span></p>
+<p><span>Replit建立分組倉儲權限:</span></p>
+<p>分組網站 import 到 Replit, 必須自行在 /home/runner/.ssh 目錄下建立 id_rsa 與 config (id_rsa.pub 必須登錄到 Github 對應帳號), 其中的 config 內容為:</p>
+<div>
+<div class="syntaxhighlighter cpp" id="highlighter_550383">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="cpp plain">Host github.com</code></div>
+<div class="line number2 index1 alt1"><code class="cpp plain">User git</code></div>
+<div class="line number3 index2 alt2"><code class="cpp plain">Hostname github.com</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<div class="syntaxhighlighter jscript" id="highlighter_355090">ssh.py 程式內容如下:</div>
+<div class="syntaxhighlighter jscript">
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">import os
+if not os.path.exists("/home/runner/.ssh"): 
+    os.makedirs("/home/runner/.ssh") 
+os.system("mv ./downloads/id_rsa.txt /home/runner/.ssh/id_rsa")
+os.system("mv ./downloads/config.txt /home/runner/.ssh/config")
+os.system("chmod og-rwx /home/runner/.ssh/id_rsa")
+</pre>
+</div>
+</div><h2>W5</h2>
 <h2>W6</h2>
 <h2>W7-W8</h2>
 <h2>W10</h2>
