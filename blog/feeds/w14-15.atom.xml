@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w14-15</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w14-15.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:42:49+08:00</updated><entry><title>2024 W14-15 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w14-15-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:36:00+08:00</published><updated>2024-06-19T20:42:49+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w14-15-blog-tutorial.html</id><summary type="html">&lt;p&gt;第十四週，各組一起參與單機猜數字遊戲&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w14-15</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w14-15.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:44:36+08:00</updated><entry><title>2024 W14-15 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w14-15-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:36:00+08:00</published><updated>2024-06-19T20:44:36+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w14-15-blog-tutorial.html</id><summary type="html">&lt;p&gt;第十四週，各組一起參與單機猜數字遊戲&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第十四週，各組一起參與單機猜數字遊戲&lt;/p&gt;
 
 
 &lt;h1&gt;遊戲分析&lt;/h1&gt;
 &lt;p&gt;利用 &lt;a href="https://claude.ai/login?returnTo=%2F%3F"&gt;claude&lt;/a&gt; 把遊戲 的.py程式做了詳細拆解分析每段內容&lt;/p&gt;
 &lt;h1&gt;有關可攜程式系統的批次檔案說明&lt;/h1&gt;
-&lt;p&gt;如何針對不同的 Python 版本修改啟動批次檔案, 並利用 AI 取得各指令的詳細說明 以下影片說明如何在近端電腦執行猜數字遊戲伺服器程式說明影片&lt;/p&gt;</content><category term="w14-15"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;如何針對不同的 Python 版本修改啟動批次檔案, 並利用 AI 取得各指令的詳細說明 以下影片說明如何在近端電腦執行猜數字遊戲伺服器程式說明影片&lt;/p&gt;
+&lt;h1&gt;w15&lt;/h1&gt;
+&lt;p&gt;以個人和各組的專案內容開始的自由時間，導師提到的課程內容為前幾週的課程重點複習講解， 我所聽到的內容為如何更容易的將個人的網誌(code)以別的方式(近端程式)匯出。&lt;/p&gt;</content><category term="w14-15"></category><category term="網誌編寫"></category></entry></feed>
