@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/all.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:20:06+08:00</updated><entry><title>2024 Spring 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T12:00:00+08:00</published><updated>2024-06-19T20:14:55+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/all.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:23:31+08:00</updated><entry><title>2024 Spring 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T12:00:00+08:00</published><updated>2024-06-19T20:14:55+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -375,10 +375,12 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;p&gt;網際內容管理課程將網頁內容管理系統與網頁資料放在同一個倉儲中，只要有能夠執行 Python 的雲端或近端環境，開啟網頁編輯程式進行改版，上傳資料可在 Github 倉儲中透過 Pages 的全球資訊伺服器呈現網站內容。&lt;/p&gt;
 &lt;p&gt;本課管理系統採用 Python Flask 編寫，超文件的以 H 標註進行分頁外，還有elican 與 Reveal.js 等兩個延伸套件&lt;/p&gt;
 &lt;p&gt;Pelican 可用來建立網誌， Reveal.js 則可用來建立網頁上的簡報資料。&lt;/p&gt;
-&lt;p&gt;wcm2024 w9上課內容&lt;/p&gt;</content><category term="W9"></category><category term="網誌編寫"></category></entry><entry><title>2024 W11 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:39:00+08:00</published><updated>2024-06-19T20:19:02+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
+&lt;p&gt;wcm2024 w9上課內容&lt;/p&gt;</content><category term="W9"></category><category term="網誌編寫"></category></entry><entry><title>2024 W11 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:39:00+08:00</published><updated>2024-06-19T20:23:31+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
 
 
+&lt;h1&gt;1a 評分倉儲&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdewcm2024/1a-ag5"&gt;我們的倉儲&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;從教務主機直接擷取資料&lt;/h1&gt;
 &lt;p&gt;利用 wsgi_v2.py 擷取各學期班級課表各學期班級課表&lt;/p&gt;
 &lt;h1&gt;Brython 程式環境&lt;/h1&gt;

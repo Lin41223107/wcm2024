@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w11</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w11.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:19:02+08:00</updated><entry><title>2024 W11 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:39:00+08:00</published><updated>2024-06-19T20:19:02+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w11</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w11.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:23:31+08:00</updated><entry><title>2024 W11 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:39:00+08:00</published><updated>2024-06-19T20:23:31+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;第 11 週課程, 說明如何在網頁中加入 Brython 程式應用以及利用 wsgi_v2.py 擷取各學期班級課表&lt;/p&gt;
 
 
+&lt;h1&gt;1a 評分倉儲&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://github.com/mdewcm2024/1a-ag5"&gt;我們的倉儲&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;從教務主機直接擷取資料&lt;/h1&gt;
 &lt;p&gt;利用 wsgi_v2.py 擷取各學期班級課表各學期班級課表&lt;/p&gt;
 &lt;h1&gt;Brython 程式環境&lt;/h1&gt;
