@@ -355,9 +355,68 @@ brython({debug:1, pythonpath:['./../cmsimde/static/','./../downloads/py/']});
 <p>為什麼有人驚這些工具為天人?</p>
 <p>有人卻覺得還好而已, 並無法從中挖出甚麼資料?</p>
 <h1>期末專案</h1>
-<p>因為我</p>
-<p></p>
-<h1>Replit</h1>
+<h2>所問的問題</h2>
+<p>1.幫我用python做出撲克牌比大小</p>
+<p><img alt="" height="257" src="/images/1.png" width="400"/></p>
+<p>2.請問要建立哪些文件和<span>文件夾</span></p>
+<p><img alt="" height="319" src="/images/2.png" width="400"/></p>
+<p>3.</p>
+<p><img alt="" height="278" src="/images/3.png" width="400"/></p>
+<p></p><h2>app.py</h2>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">from flask import Flask, render_template
+from deck import draw_card, compare_cards
+ 
+app = Flask(__name__)
+ 
+@app.route('/')
+def index():
+    card1 = draw_card()
+    card2 = draw_card()
+    result = compare_cards(card1, card2)
+    return render_template('index.html', card1=card1, card2=card2, result=result)
+ 
+if __name__ == '__main__':
+    app.run(debug=True)</pre>
+<p></p><h2>deck.py</h2>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">mport random
+ 
+suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
+ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+values = {rank: index for index, rank in enumerate(ranks, start=2)}
+ 
+def draw_card():
+    suit = random.choice(suits)
+    rank = random.choice(ranks)
+    return (rank, suit)
+ 
+def compare_cards(card1, card2):
+    value1 = values[card1[0]]
+    value2 = values[card2[0]]
+    if value1 &gt; value2:
+        return "Player 1 wins!"
+    elif value1 &lt; value2:
+        return "Player 2 wins!"
+    else:
+        return "It's a tie!"</pre>
+<p></p><h2>templates</h2>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Card Game&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Card Game: Higher Card Wins&lt;/h1&gt;
+&lt;p&gt;Player 1 drew: {{ card1[0] }} of {{ card1[1] }}&lt;/p&gt;
+&lt;p&gt;Player 2 drew: {{ card2[0] }} of {{ card2[1] }}&lt;/p&gt;
+&lt;h2&gt;{{ result }}&lt;/h2&gt;
+&lt;button onclick="location.reload()"&gt;Draw Again&lt;/button&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+<p></p><h2>證明影片</h2>
+<p><a href="/downloads/4.mp4">/downloads/4.mp4</a></p>
+<p></p><h1>Replit</h1>
 <p><a href="https://replit.com">https://replit.com</a></p>
 <p>利用 init_replit 指令安裝所需 Python 模組<br/><br/>chmod u+x init_replit<br/><br/>./init_replit</p>
 <p dir="auto">On Replit:</p>

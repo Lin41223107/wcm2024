@@ -2,6 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,16 +142,28 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content"> <a href='cmsimde.html'>Next</a> >> cmsimde<br /><h1>About</h1>
-<p>網頁: <a class="Link--inTextBlock" href="https://lin41223107.github.io/wcm2024/">https://lin41223107.github.io/wcm2024/</a></p>
-<p>網誌: <a href="https://lin41223107.github.io/wcm2024/blog_">https://lin41223107.github.io/wcm2024/blog_</a></p>
-<p>簡報: <a href="https://lin41223107.github.io/wcm2024/reveal">https://lin41223107.github.io/wcm2024/reveal</a></p>
-<p>倉儲: <a href="https://github.com/Lin41223107/wcm2024">https://github.com/Lin41223107/wcm2024</a></p>
-<p>本 cmsimde 網際內容管理系統的對應 Template 倉儲:</p>
-<p style="padding-left: 30px;"><a href="https://github.com/mdecycu/cmsimde_site">https://github.com/mdecycu/cmsimde_site</a></p>
-<p style="padding-left: 30px;">此 Template 將 cmsimde 作為子目錄而非子模組, 使用者可以依照需求自行修改</p>
-<p style="padding-left: 30px;">倉儲對應網站: <a href="https://mde.tw/cmsimde_site">https://mde.tw/cmsimde_site</a></p>
-<br /> <a href='cmsimde.html'>Next</a> >> cmsimde</div>
+    <div id="tipue_search_content">app.py << <a href='app.py.html'>Previous</a> <a href='templates.html'>Next</a> >> templates<br /><h1>deck.py</h1>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">mport random
+ 
+suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
+ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+values = {rank: index for index, rank in enumerate(ranks, start=2)}
+ 
+def draw_card():
+    suit = random.choice(suits)
+    rank = random.choice(ranks)
+    return (rank, suit)
+ 
+def compare_cards(card1, card2):
+    value1 = values[card1[0]]
+    value2 = values[card2[0]]
+    if value1 &gt; value2:
+        return "Player 1 wins!"
+    elif value1 &lt; value2:
+        return "Player 2 wins!"
+    else:
+        return "It's a tie!"</pre>
+<p></p><br />app.py << <a href='app.py.html'>Previous</a> <a href='templates.html'>Next</a> >> templates</div>
 
     <!-- footer -->
       <div class="container">
