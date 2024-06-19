@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w13</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w13.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:19:11+08:00</updated><entry><title>2024 W13 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:37:00+08:00</published><updated>2024-06-19T20:19:11+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w13</title><link href="https://github.io/41223107/wcm2024/blog/" rel="alternate"></link><link href="https://github.io/41223107/wcm2024/blog/feeds/w13.atom.xml" rel="self"></link><id>https://github.io/41223107/wcm2024/blog/</id><updated>2024-06-19T20:31:39+08:00</updated><entry><title>2024 W13 課程</title><link href="https://github.io/41223107/wcm2024/blog/2024-Spring-w13-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:37:00+08:00</published><updated>2024-06-19T20:31:39+08:00</updated><author><name>kmol</name></author><id>tag:github.io,2024-02-18:/41223107/wcm2024/blog/2024-Spring-w13-blog-tutorial.html</id><summary type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;網際內容管理課程第十三週, 從單機猜數字遊戲與 AI 應用談起&lt;/p&gt;
 
 
@@ -8,4 +8,13 @@
 &lt;p&gt;http_proxy="http://your_proxy_server:port"&lt;/p&gt;
 &lt;p&gt;https_proxy="http://your_proxy_server:port"&lt;/p&gt;
 &lt;h1&gt;猜猜看遊戲&lt;/h1&gt;
-&lt;p&gt;guess_game.7z 是在 AI 輔助下, 將簡單的單人 Brython 線上猜數字遊戲 轉化為可以多人同場比賽猜數字的線上遊戲.&lt;/p&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry></feed>
+&lt;p&gt;guess_game.7z 是在 AI 輔助下, 將簡單的單人 Brython 線上猜數字遊戲 轉化為可以多人同場比賽猜數字的線上遊戲.&lt;/p&gt;
+&lt;h1&gt;使用 SSH 客戶端遠端登入&lt;/h1&gt;
+&lt;p&gt;學員需要一個 SSH 客戶端來連接到主機。以下是使用不同操作系統的簡單說明：&lt;/p&gt;
+&lt;p&gt;Windows 可以使用 PuTTY 或 Windows Terminal。&lt;/p&gt;
+&lt;p&gt;打開 PuTTY，輸入 stud.cycu.org 作為主機名，並輸入用戶名和初始密碼。&lt;/p&gt;
+&lt;p&gt;macOS 和 Linux 打開終端（Terminal）。&lt;/p&gt;
+&lt;p&gt;輸入以下命令：&lt;/p&gt;
+&lt;p&gt;ssh 學號@stud.cycu.org 例如，如果學號是 s41223107，則輸入：&lt;/p&gt;
+&lt;p&gt;ssh s41223107@stud.cycu.org&lt;/p&gt;
+&lt;p&gt;修改初始密碼!&lt;/p&gt;</content><category term="w13"></category><category term="網誌編寫"></category></entry></feed>
